@@ -1,0 +1,24 @@
+html, body{
+    height: 100%;
+}
+
+#main{
+    background-color: red;
+}
+
+#title{
+    background-color: blue;
+}
+
+#img-div{
+    background-color: green;
+}
+
+#tribute-info{
+    background-color: yellow;
+}
+
+.link{
+    background-color: violet;
+    height: 50px;
+}
