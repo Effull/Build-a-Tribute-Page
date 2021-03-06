@@ -1,5 +1,13 @@
+  
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html, body{
-    height: 100%;
+	scroll-behavior: smooth;
+	height: 100%;
+	min-height: 100%;
 }
 
 #main{
@@ -21,4 +29,53 @@ html, body{
 .link{
     background-color: violet;
     height: 50px;
+}
+
+
+/*footer*/
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #e9ecef;
+	width: 100%;
+    padding-top: 5px;
+	padding-bottom: 5px;
+    bottom: 0px;
+}
+
+.bottom-cover {
+	align-content: left;
+	padding-left: 10px;
+	position: relative;
+}
+
+.personal-info-item {
+	margin-bottom: 0px;
+	display: block;
+	clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+	padding-right: 2px;
+	display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+	margin: 0;
+}
+
+.personal-info-item .key {
+	margin-right: 2px;
+	padding-top: 2px;
+	vertical-align: top;
+}
+
+.personal-info-item .key p h6 {
+	font-weight: 700;
+}
+
+.personal-info-item .value a {
+	text-align: left;
 }
